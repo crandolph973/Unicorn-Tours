@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unicorn Space Tours</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="class.css" href="success.html" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <div class= "container">
+        <div class= "navigation">
+      <ul>
+        <li><a href="/Unicorn Tours.html#about">About</a></li>
+        <li><a href="/Unicorn Tours.html#tours">Tours</a></li>
+        <li>Book Now</li>
+        <li><a href="testimonials.html">Testimonals</a></li>
+      </ul>
+    </nav>
+    <header class="background-dark">
+      <div class="wrapper center remove-last-margin">
+        <h1>Book Your Tour</h1>
+        <p class="lead center max-line-length"></p>
+          Complete the booking form, and get ready for blast off!
+        </p>
+      </div>
+      <img class="unicorn"src="images/unicorn.svg" alt="unicorn graphic" />
+    </header>
+    <main>
+    <section class="wrapper center margin-v-lg">
+      <form action="/success" class="center max-line-length" method="POST" name="form-name" value="book-tour">
+        <input type="hidden" name="form-name" value="book-tour">
+        <div class="form-field">
+          <label form="first_name">First Name</label>
+          <input class="form-input" type="text name" name="first_name" id="first_name" />
+        </div>
+        <div class="form-field">
+          <label form="first_name">Last Name</label>
+          <input class="form-input" type="text" name="last_name" id="last_name" />
+        </div>
+        <div class="form-field">
+          <label form="email">Email</label>
+          <input class="form-input" type="email" name="email" id="email" />
+        </div>
+        <div class="form-field">
+          <label form="email">Tour</label>
+          <select class="form-input" name="tour" id="tour">
+            <option disabled selected>Make a Selection</option>
+            <option value="Mars">Mars</option>
+            <option value="Saturn">Saturn</option>
+            <option value="Pluto">Pluto</option>
+          </select>
+        </div>
+        <div class="form-field">
+            <button type="submit" name="button" class="button">Book My Tour</button> 
+          </div>
+      </form>
+    </main>
+    <div class="background-dark padding-v-md">
+      <footer class="wrapper center flexbox flexbox--aligncenter">
+        <img src="images/logo.svg" alt="Unicorn Space Tours" />
+        <p class="margin-v-0">&copy; 2023 Unicorn Space Tours</p>
+      </footer>
+    </div>
+  </body>
+</html>
